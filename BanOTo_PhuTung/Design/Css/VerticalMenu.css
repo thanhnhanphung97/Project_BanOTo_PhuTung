@@ -1,0 +1,73 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.round {
+    width: 195px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+    .round .name-menu {
+        padding: 10px;
+    }
+
+.menu-doc {
+    
+}
+
+.menu-doc tr td {
+    padding: 10px;
+}
+
+
+.menu-doc tr td a:link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.menu-doc tr td a:link:active {
+    color: #000000;
+}
+.menu-doc tr td a:link:hover {
+    color: #000000;
+}
+    .menu-doc tr td a:link::before:active {
+        color: #000000;
+}
+.sup-online {
+    width: 195px;
+    margin-left: 100px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+    .sup-online .danhmuc-1 {
+        color: #f1f1f1; 
+        text-align:center; 
+        font-size: 16px;
+        background: #f20;
+    }
+
+.img-sup {
+    float:left;
+    width:30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+    .img-sup b {
+        float: right;
+        height: 30px;
+        line-height: 30px;
+        padding: 5px;
+    }
+
+.img-xe img {
+    width: 80px;
+    border: 1px solid #f1f1f1;
+}
+
+.change01 a:link {
+    text-decoration: none;
+}

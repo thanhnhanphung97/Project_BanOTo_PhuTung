@@ -1,0 +1,32 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+#slider {
+	width: 774px;
+	height: 325px;
+	border: 2px solid #333;
+	position: relative;
+}
+
+.slide {
+	width: 770px;
+}
+
+#slider a img {
+	width: 50px;
+    
+}
+
+#prev{
+	text-transform:uppercase;
+	top: 130px;
+	left: 8px;
+	position: absolute;
+}
+#next{
+	text-transform:uppercase;
+	top: 130px;
+	right: 8px;
+	position: absolute;
+}

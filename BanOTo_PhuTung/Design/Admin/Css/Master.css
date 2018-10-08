@@ -1,0 +1,27 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+
+#left-menu {
+    float:left;
+    width: 340px;
+    padding: 10px;
+    margin-right: -10px;
+}
+
+#right-menu {
+    float:right;
+    width: 940px;
+    padding: 0px 15px 20px 15px;
+    margin-right: 70px;
+    
+}
+
+#footer {
+    background: #1e1e33;
+    color: #3a3a68;
+    text-align: center;
+    padding: 40px;
+}
+

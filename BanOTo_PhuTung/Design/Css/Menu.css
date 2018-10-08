@@ -1,0 +1,118 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+#menu {
+	height: 50px;
+}
+
+#menu #sub-menu {
+	float: left;
+	width: 800px;
+}
+
+#menu #sub-menu ul {
+	list-style-type: none;
+	
+}
+#menu #sub-menu > ul {
+	margin-left: 93px;
+	padding: 7px;
+}
+
+#menu #sub-menu ul li {
+	display:inline-table;
+	position: relative;
+}
+
+#menu #sub-menu ul li a {
+	text-decoration: none;
+	color: #000000;
+	display: block;
+	font-size: 18px;
+	padding: 5px;
+	width: 100px;
+	text-align: center;
+}
+
+#menu #sub-menu ul li a:hover {
+	color: #f20;
+}
+
+#menu #sub-menu ul li a:active {
+	background: #f20;
+	color: #f1f1f1;
+	border-radius: 10px;
+}
+
+#sub-menu ul li:hover  .child-menu {
+	display: block;
+}
+
+.child-menu {
+	display: none;
+	position: absolute;
+	width: 100px;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	border-radius: 10px;
+}
+
+.child-menu li {
+	border-bottom: 1px solid #f1f1f1;
+	text-align: left;
+}
+
+.child-menu li:hover {
+
+}
+
+.child-menu li a {
+	text-align: left;
+}
+
+#menu #search
+{
+	padding: 5px;
+	float:right;
+	height:53px;
+	width: 500px;
+	border-radius:5px;
+}
+#menu #search input[type=text]
+{
+	float:left;
+	height:29px;
+	width:250px;
+	font-size:14px;
+	border: 1px solid #000000;
+	border-radius: 5px;
+	margin-top: 3px;
+}
+#menu #search input[type=submit]
+{
+	float:right;
+	height:29px;
+	width: 80px;
+	color: #f1f1f1;
+	margin-top: 3px;
+	background: #f20;
+	border-radius: 5px;
+	font-size:14px;
+    margin-right: 150px;
+}
+#menu #search input[type=submit]:hover
+{
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+

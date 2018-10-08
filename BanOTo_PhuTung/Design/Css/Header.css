@@ -1,0 +1,30 @@
+﻿@charset "utf-8";
+/* CSS Document */
+* { 
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear:both;
+}
+
+#gach {
+	border: 2px solid #F00;
+}
+
+#imgheader {
+	background-image:url(http://localhost:3215/Images/header01.jpg);
+	width:600px;
+	height:58px;
+	float:left;
+	background-repeat:no-repeat;
+	background-size: 150px;
+	margin-left: 110px;
+	margin-top: 12px;
+}
+#dangnhap {
+	float: left;
+	width: 495px;
+	padding: 0.8em;
+}

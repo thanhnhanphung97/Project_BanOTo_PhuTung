@@ -1,0 +1,52 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="AdminMasterPage" %>
+
+<%@ Register src="Admin/UC/ucHeader.ascx" tagname="ucHeader" tagprefix="uc1" %>
+<%@ Register src="Admin/UC/ucMenu.ascx" tagname="ucMenu" tagprefix="uc2" %>
+<%@ Register src="Admin/UC/QLAdmin.ascx" tagname="QLAdmin" tagprefix="uc3" %>
+<%@ Register Src="~/Admin/UC/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<link href="Admin/Css/Header.css" type="text/css" rel="stylesheet" />
+<link href="Admin/Css/Master.css" type="text/css" rel="stylesheet" />
+<link href="Admin/Css/Menu.css" type="text/css" rel="stylesheet" />
+<link href="Admin/Css/VerticalMenu.css" type="text/css" rel="stylesheet" />
+
+<link href="Admin/Css/dnvadk.css"  type="text/css" rel="stylesheet" />
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <uc1:ucHeader ID="ucHeader1" runat="server" />
+
+    </div>
+    <div style="border: 2px solid #f20;"></div>
+    <div>
+
+        <uc2:ucMenu ID="ucMenu1" runat="server" />
+
+    </div>
+    <div id="left-menu">
+
+        <uc3:QLAdmin ID="QLAdmin1" runat="server" />
+
+    </div>
+    <div id ="right-menu">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+        <div class="clear"></div>
+    <div id="footer">
+        <uc1:ucFooter runat="server" ID="ucFooter" />
+    </div>
+    </form>
+</body>
+</html>

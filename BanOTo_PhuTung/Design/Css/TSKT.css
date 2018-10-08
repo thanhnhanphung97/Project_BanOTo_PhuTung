@@ -1,0 +1,39 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.dlhinh-img {
+    margin-left: 80px;
+    width: 750px;
+}
+.img-img img {
+    width: 500px;
+    height: 300px;
+    border: 2px solid #000000;
+    margin-top: 20px;
+
+}
+
+.sp-nsx {
+    font-size: 18px;
+    color: #000000;
+    
+}
+
+.ds-tskt {
+    width: 790px;
+}
+
+
+.danh-muc {
+    font-size: 16px;
+    color: #808080;
+    border: 1px solid;
+    padding: 7px 7px 7px 15px;
+}
+
+.noi-dung {
+    width: 440px;
+    font-size: 16px;
+    color: #000000;
+    border: 1px solid;
+    padding: 7px 7px 7px 15px;
+}

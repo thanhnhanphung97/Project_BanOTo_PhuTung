@@ -1,0 +1,88 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register src="UC/ucHeader.ascx" tagname="ucHeader" tagprefix="uc1" %>
+<%@ Register src="UC/ucMenu.ascx" tagname="ucMenu" tagprefix="uc2" %>
+<%@ Register src="UC/VerticalMenu.ascx" tagname="VerticalMenu" tagprefix="uc3" %>
+<%@ Register Src="~/UC/ucSlider.ascx" TagPrefix="uc1" TagName="ucSlider" %>
+<%@ Register Src="~/UC/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
+
+
+<link href="Css/Header.css" type="text/css" rel="stylesheet" />
+<link href="Css/Menu.css" type="text/css" rel="stylesheet" />
+<link href="Css/VerticalMenu.css" type="text/css" rel="stylesheet" />
+<link href="Css/Slider.css" type="text/css" rel="stylesheet" />
+<link href="Css/Master.css" type="text/css" rel="stylesheet" />
+<link href="Css/CarList.css" type="text/css" rel="stylesheet" />
+<link href="Css/AccessaryList.css" type="text/css" rel="stylesheet" />
+<link href="Css/dnvadk.css" type="text/css" rel="stylesheet" />
+<link href="Css/TSKT.css" type="text/css" rel="stylesheet" />
+
+<script type="text/javascript" src="JS/jquery-3.2.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var id = 0;
+        strImg = $("img.slide:first").attr("data-id");
+        endImg = $("img.slide:last").attr("data-id");
+        $("img.slide").each(function () {
+            if ($(this).is(':visible'))
+                id = $(this).attr("data-id");
+        });
+        $("#next").click(function () {
+            if (id == endImg) {
+                id = 0;
+            }
+            next = id++;
+            $("img.slide").hide();
+            $("img.slide").eq(next).show();
+        });
+        $("#prev").click(function () {
+            if (id == 0) {
+                id = 3;
+            }
+            prev = --id;
+            $("img.slide").hide();
+            $("img.slide").eq(prev).show();
+        });
+        setInterval(function () {
+            $("#next").click();
+        }, 4000);
+    });
+</script>
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+
+
+
+
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <uc1:ucHeader ID="ucHeader1" runat="server" />
+    </div>
+    <div style="border: 2px solid #f20;"></div>
+    <div>
+        <uc2:ucMenu ID="ucMenu1" runat="server" />
+    </div>
+    <div id ="left-menu">
+        <uc3:VerticalMenu ID="VerticalMenu1" runat="server" />
+    </div>
+    <div id="right-menu">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <uc1:ucFooter runat="server" ID="ucFooter" />
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,91 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.form-dn-dk {
+    width: 790px;
+    height: 1000px;
+    margin-left:55px;
+}
+
+.dn01 {
+    width: 380px; 
+    height: 90px; 
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-left: 180px;
+    
+}
+
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.text {
+    border-radius: 5px;
+}
+
+.tenhienthi {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nhap {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dk-tht {
+    width: 200px;
+    padding: 10px;
+
+}
+
+.dk01 {
+    width: 500px;
+    padding: 20px;
+    margin-top: -40px;
+    
+}
+
+.dk-txt {
+    
+}
+
+.btn-click-dn {
+    border-radius: 5px;
+    background: #f20;
+    color: #f1f1f1;
+    padding: 4px;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.btn-click-dk {
+    border-radius: 5px;
+    background: #f20;
+    color: #f1f1f1;
+    padding: 4px;
+    width: 140px;
+    margin-left: 225px;
+    margin-top: -10px;
+}
+
+#doimk {
+    float: right;
+    margin-left: 10px;
+}
+
+.form-dn-dk #doimk a:link{
+    
+}
+

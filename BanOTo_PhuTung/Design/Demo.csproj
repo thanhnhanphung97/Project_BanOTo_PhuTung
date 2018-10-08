@@ -1,0 +1,265 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{6D4EB973-3D85-478D-BF31-086EB802C57D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Demo</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccessaryFull.aspx" />
+    <Content Include="Admin.aspx" />
+    <Content Include="AdminDangnhap.aspx" />
+    <Content Include="Admin\Css\dnvadk.css" />
+    <Content Include="Admin\Css\Header.css" />
+    <Content Include="Admin\Css\Master.css" />
+    <Content Include="Admin\Css\Menu.css" />
+    <Content Include="Admin\Css\qloto.css" />
+    <Content Include="Admin\Css\VerticalMenu.css" />
+    <Content Include="Admin\UC\QLAdmin.ascx" />
+    <Content Include="Admin\UC\ucDNAdmin.ascx" />
+    <Content Include="Admin\UC\ucFooter.ascx" />
+    <Content Include="Admin\UC\ucHeader.ascx" />
+    <Content Include="Admin\UC\ucMenu.ascx" />
+    <Content Include="Admin\UC\ucNSX.ascx" />
+    <Content Include="Admin\UC\ucQLOTo.ascx" />
+    <Content Include="AllCar.aspx" />
+    <Content Include="App_Data\QLBOto_Phutung.sql" />
+    <Content Include="Css\AccessaryList.css" />
+    <Content Include="Css\CarList.css" />
+    <Content Include="Css\dnvadk.css" />
+    <Content Include="Css\Giohang.css" />
+    <Content Include="Css\Header.css" />
+    <Content Include="Css\Master.css" />
+    <Content Include="Css\Menu.css" />
+    <Content Include="Css\Slider.css" />
+    <Content Include="Css\TSKT.css" />
+    <Content Include="Css\VerticalMenu.css" />
+    <Content Include="Dangky.aspx" />
+    <Content Include="Dangnhap.aspx" />
+    <Content Include="Giohang.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Header.html" />
+    <Content Include="Images\accentwhite.png" />
+    <Content Include="Images\alphard.jpg" />
+    <Content Include="Images\attrage.png" />
+    <Content Include="Images\bmw3series.jpg" />
+    <Content Include="Images\bmw5series.jpg" />
+    <Content Include="Images\bmw7series750i.jpg" />
+    <Content Include="Images\bomxanginnova.jpg" />
+    <Content Include="Images\bugihonda.jpg" />
+    <Content Include="Images\cang-a-duoi-innova.jpg" />
+    <Content Include="Images\Chonmua.png" />
+    <Content Include="Images\civic15lvtec.jpg" />
+    <Content Include="Images\dangnhap.jpg" />
+    <Content Include="Images\daunhotmitsu.jpg" />
+    <Content Include="Images\daycuroamitsu.jpg" />
+    <Content Include="Images\Delete.jpg" />
+    <Content Include="Images\denphahondacivic.JPG" />
+    <Content Include="Images\elantra.png" />
+    <Content Include="Images\gianlanhbmwx5.jpg" />
+    <Content Include="Images\Giohang.gif" />
+    <Content Include="Images\header.jpg" />
+    <Content Include="Images\header01.jpg" />
+    <Content Include="Images\hondacity15cvt.jpg" />
+    <Content Include="Images\hondacity15top.jpg" />
+    <Content Include="Images\hondacrv20.png" />
+    <Content Include="Images\innovae20emt.jpg" />
+    <Content Include="Images\innovae20gmt.jpg" />
+    <Content Include="Images\jazz15v.jpg" />
+    <Content Include="Images\locdauhonda.jpg" />
+    <Content Include="Images\locdaumaybmw.jpg" />
+    <Content Include="Images\locgiohonda.jpg" />
+    <Content Include="Images\locgiomitsu.jpg" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\outlander01.png" />
+    <Content Include="Images\outlander02.png" />
+    <Content Include="Images\phanhhonda.jpg" />
+    <Content Include="Images\prev.png" />
+    <Content Include="Images\quatdanlanhinnova.jpg" />
+    <Content Include="Images\slide-1.jpg" />
+    <Content Include="Images\slide-2.jpg" />
+    <Content Include="Images\slide-3.jpg" />
+    <Content Include="Images\slider01.jpg" />
+    <Content Include="Images\slider02.jpg" />
+    <Content Include="Images\slider03.jpg" />
+    <Content Include="Images\sonata.jpg" />
+    <Content Include="Images\sup-on-1.jpg" />
+    <Content Include="Images\sup-on-2.png" />
+    <Content Include="Images\sup-on-3.png" />
+    <Content Include="Images\triton.png" />
+    <Content Include="Images\tucson.png" />
+    <Content Include="JS\jquery-3.2.1.min.js" />
+    <Content Include="Menu.html" />
+    <Content Include="NhaSanXuat.aspx" />
+    <Content Include="PhutungTheoNSX.aspx" />
+    <Content Include="QLOTo.aspx" />
+    <Content Include="sl.txt" />
+    <Content Include="ThanhToan.aspx" />
+    <Content Include="ThemNSX.aspx" />
+    <Content Include="ThongTinXe.aspx" />
+    <Content Include="Trangchu.aspx" />
+    <Content Include="UC\ucCarList.ascx" />
+    <Content Include="UC\ucDangKy.ascx" />
+    <Content Include="UC\ucDangNhap.ascx" />
+    <Content Include="UC\ucFooter.ascx" />
+    <Content Include="UC\ucGiohang.ascx" />
+    <Content Include="UC\ucHeader.ascx" />
+    <Content Include="UC\ucMenu.ascx" />
+    <Content Include="UC\ucSlider.ascx" />
+    <Content Include="UC\ucTTXe.ascx" />
+    <Content Include="UC\VerticalMenu.ascx" />
+    <Content Include="XeTheoNSX.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccessaryFull.aspx.cs">
+      <DependentUpon>AccessaryFull.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminDangnhap.aspx.cs">
+      <DependentUpon>AdminDangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMasterPage.master.cs">
+      <DependentUpon>AdminMasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\QLAdmin.ascx.cs">
+      <DependentUpon>QLAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\ucDNAdmin.ascx.cs">
+      <DependentUpon>ucDNAdmin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\ucFooter.ascx.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\ucHeader.ascx.cs">
+      <DependentUpon>ucHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\ucMenu.ascx.cs">
+      <DependentUpon>ucMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\ucNSX.ascx.cs">
+      <DependentUpon>ucNSX.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\UC\ucQLOTo.ascx.cs">
+      <DependentUpon>ucQLOTo.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="AllCar.aspx.cs">
+      <DependentUpon>AllCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\xldl.cs" />
+    <Compile Include="Dangky.aspx.cs">
+      <DependentUpon>Dangky.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Dangnhap.aspx.cs">
+      <DependentUpon>Dangnhap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Giohang.aspx.cs">
+      <DependentUpon>Giohang.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+    </Compile>
+    <Compile Include="NhaSanXuat.aspx.cs">
+      <DependentUpon>NhaSanXuat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhutungTheoNSX.aspx.cs">
+      <DependentUpon>PhutungTheoNSX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="QLOTo.aspx.cs">
+      <DependentUpon>QLOTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThanhToan.aspx.cs">
+      <DependentUpon>ThanhToan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThemNSX.aspx.cs">
+      <DependentUpon>ThemNSX.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ThongTinXe.aspx.cs">
+      <DependentUpon>ThongTinXe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trangchu.aspx.cs">
+      <DependentUpon>Trangchu.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucCarList.ascx.cs">
+      <DependentUpon>ucCarList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucDangKy.ascx.cs">
+      <DependentUpon>ucDangKy.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucDangNhap.ascx.cs">
+      <DependentUpon>ucDangNhap.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucFooter.ascx.cs">
+      <DependentUpon>ucFooter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucGiohang.ascx.cs">
+      <DependentUpon>ucGiohang.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucHeader.ascx.cs">
+      <DependentUpon>ucHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucMenu.ascx.cs">
+      <DependentUpon>ucMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucSlider.ascx.cs">
+      <DependentUpon>ucSlider.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\ucTTXe.ascx.cs">
+      <DependentUpon>ucTTXe.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UC\VerticalMenu.ascx.cs">
+      <DependentUpon>VerticalMenu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="XeTheoNSX.aspx.cs">
+      <DependentUpon>XeTheoNSX.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AdminMasterPage.master" />
+    <None Include="App_Data\QLBOto_Phutung.BAK" />
+    <None Include="MasterPage.master" />
+    <None Include="Web.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

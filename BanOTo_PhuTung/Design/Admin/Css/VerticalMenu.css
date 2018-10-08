@@ -1,0 +1,36 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.menu-ql {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 220px;
+}
+
+    .menu-ql ul {
+        list-style-type: none;
+    }
+        .menu-ql ul li {
+            font-size: 14px;
+            padding: 7px;
+            margin-left: 20px;
+
+        }
+    .menu-ql ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+        .menu-ql ul li a:hover {
+            color: #f20;
+        }
+
+.danh-muc-menu-ql {
+    border:1px solid #f20; 
+    color:#f1f1f1; 
+    text-align: center; 
+    background: #f20; 
+    font-size: 16px; 
+    padding: 5px;"
+}
