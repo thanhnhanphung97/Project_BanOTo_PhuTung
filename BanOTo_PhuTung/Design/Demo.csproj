@@ -45,7 +45,9 @@
   <ItemGroup>
     <Content Include="AccessaryFull.aspx" />
     <Content Include="Admin.aspx" />
-    <Content Include="AdminDangnhap.aspx" />
+    <Content Include="AdminDangnhap.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Content Include="Admin\Css\dnvadk.css" />
     <Content Include="Admin\Css\Header.css" />
     <Content Include="Admin\Css\Master.css" />
@@ -137,7 +139,9 @@
     <Content Include="Trangchu.aspx" />
     <Content Include="UC\ucCarList.ascx" />
     <Content Include="UC\ucDangKy.ascx" />
-    <Content Include="UC\ucDangNhap.ascx" />
+    <Content Include="UC\ucDangNhap.ascx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
     <Content Include="UC\ucFooter.ascx" />
     <Content Include="UC\ucGiohang.ascx" />
     <Content Include="UC\ucHeader.ascx" />
@@ -156,6 +160,7 @@
     </Compile>
     <Compile Include="AdminDangnhap.aspx.cs">
       <DependentUpon>AdminDangnhap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="AdminMasterPage.master.cs">
       <DependentUpon>AdminMasterPage.master</DependentUpon>
@@ -226,6 +231,7 @@
     </Compile>
     <Compile Include="UC\ucDangNhap.ascx.cs">
       <DependentUpon>ucDangNhap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="UC\ucFooter.ascx.cs">
       <DependentUpon>ucFooter.ascx</DependentUpon>
